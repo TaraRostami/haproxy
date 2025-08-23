@@ -1,14 +1,19 @@
 # HAProxy
 
-[![alpine/musl](https://github.com/haproxy/haproxy/actions/workflows/musl.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/musl.yml)
-[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)
-[![openssl no-deprecated](https://github.com/haproxy/haproxy/actions/workflows/openssl-nodeprecated.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/openssl-nodeprecated.yml)
-[![Illumos](https://github.com/haproxy/haproxy/actions/workflows/illumos.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/illumos.yml)
-[![NetBSD](https://github.com/haproxy/haproxy/actions/workflows/netbsd.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/netbsd.yml)
-[![FreeBSD](https://api.cirrus-ci.com/github/haproxy/haproxy.svg?task=FreeBSD)](https://cirrus-ci.com/github/haproxy/haproxy/)
-[![VTest](https://github.com/haproxy/haproxy/actions/workflows/vtest.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/vtest.yml)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="doc/haproxy_2.svg">
+    <img alt="haproxy" src="doc/haproxy.svg" width="300">
+  </picture>
+</p>
 
-![HAProxy logo](doc/HAProxyCommunityEdition_60px.png)
+[![alpine/musl](https://img.shields.io/github/actions/workflow/status/haproxy/haproxy/musl.yml?label=alpine%2Fmusl&logo=alpinelinux&logoColor=959DA5&labelColor=353C43)](https://github.com/haproxy/haproxy/actions/workflows/musl.yml)
+[![AWS-LC](https://img.shields.io/github/actions/workflow/status/haproxy/haproxy/aws-lc.yml?label=AWS-LC&logo=github&logoColor=959DA5&labelColor=353C43)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)
+[![openssl no-deprecated](https://img.shields.io/github/actions/workflow/status/haproxy/haproxy/openssl-nodeprecated.yml?label=openssl%20no-deprecated&logo=github&logoColor=959DA5&labelColor=353C43)](https://github.com/haproxy/haproxy/actions/workflows/openssl-nodeprecated.yml)
+[![Illumos](https://img.shields.io/github/actions/workflow/status/haproxy/haproxy/illumos.yml?label=Illumos&logo=github&logoColor=959DA5&labelColor=353C43)](https://github.com/haproxy/haproxy/actions/workflows/illumos.yml)
+[![NetBSD](https://img.shields.io/github/actions/workflow/status/haproxy/haproxy/netbsd.yml?label=NetBSD&logo=netbsd&logoColor=959DA5&labelColor=353C43)](https://github.com/haproxy/haproxy/actions/workflows/netbsd.yml)
+[![FreeBSD](https://img.shields.io/cirrus/github/haproxy/haproxy?task=FreeBSD&logo=freebsd&logoColor=959DA5&labelColor=353C43)](https://cirrus-ci.com/github/haproxy/haproxy/)
+[![VTest](https://img.shields.io/github/actions/workflow/status/haproxy/haproxy/vtest.yml?label=VTest&logo=github&logoColor=959DA5&labelColor=353C43)](https://github.com/haproxy/haproxy/actions/workflows/vtest.yml)
 
 HAProxy is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP
 and HTTP-based applications.
